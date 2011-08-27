@@ -1,0 +1,16 @@
+#
+# Apply in this directory with: svn propset svn:ignore -F IGNORE.txt -R .
+#
+
+*.pyc
+*.swp
+EGG-INFO
+*.egg-info*
+bin
+eggs
+parts
+source
+fake-eggs
+develop-eggs
+.installed.cfg
+
