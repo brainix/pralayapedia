@@ -28,10 +28,11 @@ from setuptools import setup, find_packages
 
 def read_file(*path_components):
     path = os.path.join(os.path.dirname(__file__), *path_components)
-    with f as open(path):
-        contents = f.read()
-        contents = contents.strip()
-        return contents
+    f = open(path)
+    contents = f.read()
+    contents = contents.strip()
+    f.close()
+    return contents
 
 
 version = read_file('pralaya', 'plone', 'version.txt')
