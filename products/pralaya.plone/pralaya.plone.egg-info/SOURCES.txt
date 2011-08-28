@@ -1,5 +1,6 @@
 README.txt
 setup.py
+docs/HISTORY.txt
 pralaya/__init__.py
 pralaya.plone.egg-info/PKG-INFO
 pralaya.plone.egg-info/SOURCES.txt
@@ -10,3 +11,4 @@ pralaya.plone.egg-info/not-zip-safe
 pralaya.plone.egg-info/requires.txt
 pralaya.plone.egg-info/top_level.txt
 pralaya/plone/__init__.py
+pralaya/plone/version.txt

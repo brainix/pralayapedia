@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    i18n_domain="pralaya.plone">
+
+  <gs:registerProfile
+      name="default"
+      title="Pralaya"
+      description='Extension profile pralaya.plone'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      />
+
+</configure>
